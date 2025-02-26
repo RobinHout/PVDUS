@@ -1,0 +1,40 @@
+
+
+:root {
+    --main-txt-color: #f280cb;
+    --main-bg-color: #415587;
+}
+
+* {
+    margin: 0%;
+}
+.header {
+    padding: 10px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+    align-items: center;
+    justify-content: space-between;
+}
+.headerFoto {
+    padding: 10px;
+    width: 100px;
+}
+.headerPicture {
+    display: flex;
+    align-items: center;
+}
+.headerButton {
+    background-color: var(--main-bg-color);
+    align-self: self-end;
+    color: var(--main-txt-color);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    /* border-bottom: 1px solid black; */
+    font-size: 17px;
+    transition: background-color 0.3s;
+    font-family: Arial, sans-serif;
+}
